@@ -12,7 +12,7 @@ function openTabVertical(evt, tabName) {
     document.getElementById(tabName).style.display = "block"; //안보이는 상태로 된 컨텐츠 박스를 보이게 변경
     evt.currentTarget.className += " tablinkOn"; //공백으로바꾼 탭의 클래스를 바꿔치기
   }
-  
+   
   
   
   //탭스타일(가로형), 탭+콘텐츠 증가 가능
@@ -29,4 +29,4 @@ function openTabVertical(evt, tabName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " w3-red";
   }*/
-  화잍
+  
