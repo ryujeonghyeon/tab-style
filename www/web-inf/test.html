@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+<title>자바스크립트를 활용한 탭스타일(가로/세로)</title>
+<link rel="stylesheet" type="text/css" href="../css/test.css" />
+<body>
+<header>
+
+</header>
+<section class="openTabVertical">
+  <div class="tab">
+    <button class="tabButton tablink tablinkOn" onclick="openTabVertical(event, 'Tab01')">Tab01</button>
+    <button class="tabButton tablink" onclick="openTabVertical(event, 'Tab02')">Tab02</button>
+    <button class="tabButton tablink" onclick="openTabVertical(event, 'Tab03')">Tab03</button>
+    <button class="tabButton tablink" onclick="openTabVertical(event, 'Tab04')">Tab04</button>
+  </div>
+  <div class="contents">
+    <div id="Tab01" class="container box">
+      <h2>container01</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+    </div>
+  
+    <div id="Tab02" class="container box" style="display:none">
+      <h2>container02</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+    </div>
+  
+    <div id="Tab03" class="container box" style="display:none">
+        <h2>container03</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+    </div>
+    
+    <div id="Tab04" class="container box" style="display:none">
+        <h2>container04</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:130px">
+  <button class="tabButton w3-button tablink" onclick="openTabVertical(event, 'London')">London</button>
+    <button class="tabButton w3-button tablink" onclick="openTabVertical(event, 'Paris')">Paris</button>
+    <button class="tabButton w3-button tablink" onclick="openTabVertical(event, 'Tokyo')">Tokyo</button>
+    <button class="tabButton w3-button tablink" onclick="openTabVertical(event, 'Seoul')">Seoul</button>
+</div>
+
+<div style="margin-left:130px">
+  <div class="w3-padding">Vertical Tab Example (sidebar)</div>
+
+  <div id="London" class="w3-container city" style="display:none">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
+
+  <div id="Paris" class="w3-container city" style="display:none">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p> 
+    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+  </div>
+
+  <div id="Tokyo" class="w3-container city" style="display:none">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+  </div>
+  
+  <div id="Seoul" class="w3-container city" style="display:none">
+    <h2>Seoul</h2>
+    <p>서울은 한국의 수도입니다.</p>
+    <p>한국으로 놀러오세요</p>
+  </div>
+
+</div> -->
+
+<script type="text/javascript" src="../js/test.js" charset="UTF-8"></script>
+</body>
+</html>
